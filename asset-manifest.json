@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bluestacksassignment/static/css/main.5f361e03.chunk.css",
+    "main.js": "/bluestacksassignment/static/js/main.400afc1e.chunk.js",
+    "main.js.map": "/bluestacksassignment/static/js/main.400afc1e.chunk.js.map",
+    "runtime-main.js": "/bluestacksassignment/static/js/runtime-main.c6547d22.js",
+    "runtime-main.js.map": "/bluestacksassignment/static/js/runtime-main.c6547d22.js.map",
+    "static/js/2.a03302b0.chunk.js": "/bluestacksassignment/static/js/2.a03302b0.chunk.js",
+    "static/js/2.a03302b0.chunk.js.map": "/bluestacksassignment/static/js/2.a03302b0.chunk.js.map",
+    "index.html": "/bluestacksassignment/index.html",
+    "precache-manifest.8a2a355fb66dae599558ade3c24ebc6b.js": "/bluestacksassignment/precache-manifest.8a2a355fb66dae599558ade3c24ebc6b.js",
+    "service-worker.js": "/bluestacksassignment/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/bluestacksassignment/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.a03302b0.chunk.js.LICENSE.txt": "/bluestacksassignment/static/js/2.a03302b0.chunk.js.LICENSE.txt",
+    "static/media/Auto_chess.png": "/bluestacksassignment/static/media/Auto_chess.977ecf7b.png",
+    "static/media/logo.svg": "/bluestacksassignment/static/media/logo.5d5d9eef.svg",
+    "static/media/logo.png": "/bluestacksassignment/static/media/logo.688d7dd4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6547d22.js",
+    "static/js/2.a03302b0.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.400afc1e.chunk.js"
+  ]
+}
