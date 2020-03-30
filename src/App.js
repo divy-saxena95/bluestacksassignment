@@ -45,6 +45,11 @@ const styles = theme => ({
         fontWeight: 'bold',
         fontFamily: 'unset',
         color: '#1D2951'
+    },
+    calendar:{
+    position:'absolute',
+    zIndex:5000,
+    right:0
     }
 
 });
@@ -110,7 +115,8 @@ class App extends Component {
 //Function handling the change of date selected from calendar
     changeDate = (selectedDate) => {
         this.setState({
-            date: selectedDate
+            date: selectedDate,
+            openCalendar:!this.state.openCalendar
         })
         Data.data[this.state.index].createdOn = selectedDate;
     }
@@ -184,6 +190,7 @@ class App extends Component {
                 orientation = "landscape"
                 variant = "static"
                 openTo = "date"
+                className={classes.calendar}
                 value = {
                     this.state.date
                 }

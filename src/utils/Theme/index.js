@@ -176,10 +176,11 @@ export default createMuiTheme({
             //   color: "red"
             //}
         },
-        MuiPickersToolbar: {
-            toolbar: {
-                // backgroundColor: blue.A200,
-                // height: '13vh'
+        MuiPickersStaticWrapper: {
+            staticWrapperRoot: {
+            position:'absolute',
+            zIndex:5000,
+            right:0
             }
         },
         MuiDialog: {
