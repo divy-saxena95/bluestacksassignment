@@ -5,7 +5,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'
 import Typography from '@material-ui/core/Typography';
-import Tab from './components/Tab'
+import Tab from './components/Tab';
 import {
     MuiThemeProvider
 } from '@material-ui/core/styles';
@@ -139,7 +139,6 @@ class App extends Component {
             span className = {
                 classes.heading
             } > Manage Campaigns < /span>
-
             <
             Tab onChange = {
                 this.handleChange
@@ -150,6 +149,7 @@ class App extends Component {
             tabHeadings = {
                 tabHeadings
             } >
+
             <
             Table rows = {
                 Data.data
